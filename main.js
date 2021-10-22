@@ -157,7 +157,7 @@ function down()
 
 function left()
 {
-    if(player_x >=0)
+    if(player_x >0)
     {
         player_x = player_x - block_image_width;
         console.log("block image width = " + block_image_width );
